@@ -3,9 +3,9 @@ package api
 import (
 	"context"
 
+	"github.com/boryslavqq/near-api-go/types"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/stretchr/testify/require"
-	"github.com/textileio/near-api-go/types"
 
 	"testing"
 )

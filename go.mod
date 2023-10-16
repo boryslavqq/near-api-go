@@ -1,25 +1,29 @@
-module github.com/textileio/near-api-go
+module github.com/boryslavqq/near-api-go
 
 go 1.16
 
 require (
-	github.com/ethereum/go-ethereum v1.10.6
+	github.com/ethereum/go-ethereum v1.13.3
 	github.com/mr-tron/base58 v1.2.0
-	github.com/near/borsh-go v0.3.0
-	github.com/stretchr/testify v1.7.0
-	github.com/textileio/go-log/v2 v2.1.3-gke-1
+	github.com/near/borsh-go v0.3.1
+	github.com/stretchr/testify v1.8.1
+	github.com/textileio/go-log/v2 v2.1.3-gke-2
 )
 
 require (
-	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
-	github.com/go-ole/go-ole v1.2.4 // indirect
-	go.uber.org/zap v1.18.1 // indirect
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
-	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22 // indirect
-	golang.org/x/tools v0.1.4 // indirect
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
+	github.com/StackExchange/wmi v1.2.1 // indirect
+	github.com/deckarep/golang-set v1.8.0 // indirect
+	github.com/go-ole/go-ole v1.3.0 // indirect
+	github.com/go-stack/stack v1.8.1 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
+	github.com/textileio/near-api-go v0.2.0
+	github.com/tklauser/go-sysconf v0.3.12 // indirect
+	github.com/yusufpapurcu/wmi v1.2.3 // indirect
+	go.uber.org/atomic v1.11.0 // indirect
+	go.uber.org/multierr v1.11.0 // indirect
+	go.uber.org/zap v1.26.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
 )
 
 replace github.com/ethereum/go-ethereum => github.com/textileio/go-ethereum v1.10.3-0.20210413172519-62e8b38d82b1

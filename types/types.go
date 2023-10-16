@@ -1,8 +1,8 @@
 package types
 
 import (
+	"github.com/boryslavqq/near-api-go/keys"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/textileio/near-api-go/keys"
 )
 
 // Config configures the NEAR client.
