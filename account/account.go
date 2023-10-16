@@ -8,15 +8,15 @@ import (
 	"strings"
 	"time"
 
+	itypes "github.com/boryslavqq/near-api-go/internal/types"
+	"github.com/boryslavqq/near-api-go/keys"
+	"github.com/boryslavqq/near-api-go/transaction"
+	"github.com/boryslavqq/near-api-go/types"
+	"github.com/boryslavqq/near-api-go/util"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mr-tron/base58/base58"
 	"github.com/near/borsh-go"
 	logging "github.com/textileio/go-log/v2"
-	itypes "github.com/textileio/near-api-go/internal/types"
-	"github.com/textileio/near-api-go/keys"
-	"github.com/textileio/near-api-go/transaction"
-	"github.com/textileio/near-api-go/types"
-	"github.com/textileio/near-api-go/util"
 )
 
 const (
